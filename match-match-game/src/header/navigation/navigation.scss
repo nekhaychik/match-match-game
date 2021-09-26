@@ -1,0 +1,46 @@
+.nav__list {
+  height: 64px;
+  margin-left: 152px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__li-background {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 64px;
+    &::marker {
+      color: transparent;
+    }
+  }
+  &__li-text {
+    padding-top: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+  }
+  &__about-game {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #1E88E5;;
+  }
+  &__best-score,
+  &__game-settings {
+    width: 20px;
+    height: 20px;
+  }
+}

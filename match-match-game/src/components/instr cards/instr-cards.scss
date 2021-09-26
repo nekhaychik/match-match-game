@@ -1,0 +1,93 @@
+.instr {
+  display: grid;
+  grid-template-columns: 360px 330px;
+  grid-template-rows: 30px 230px 132px 240px;
+  grid-template-areas: 
+    "instr__title instr__title"
+    "instr__p1 instr__registr"
+    "instr__p2 instr__game-settings"
+    "instr__p3 instr__cards-field"
+  ;
+  column-gap: 90px;
+  row-gap: 21px;
+  &__title {
+    grid-area: instr__title;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  &__p1 {
+    grid-area: instr__p1;
+    background-color: white;
+  }
+  &__p2 {
+    grid-area: instr__p2;
+    background-color: white;
+  }
+  &__p3 {
+    grid-area: instr__p3;
+    background-color: white;
+  }
+  &__registr {
+    grid-area: instr__registr;
+    display: flex;
+    justify-content: flex-end;
+    &-img {
+      width: 302px;
+      height: 218px;
+    }
+  }
+  &__game-settings {
+    grid-area: instr__game-settings;
+    display: flex;
+    justify-content: flex-end;
+    &-img {
+      width: 116px;
+      height: 73px;
+    }
+  }
+  &__cards-field {
+    grid-area: instr__cards-field;
+    display: flex;
+    justify-content: flex-end;
+    &-img {
+      width: 330px;
+      height: 240px;
+    }
+  }
+  &__text {
+    height: 100%;
+    display: flex;
+    margin: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  &__num {
+    min-width: 40px;
+    height: 41px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    margin-right: 16px;
+  }
+}

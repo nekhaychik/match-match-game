@@ -1,0 +1,42 @@
+.settings {
+  &__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  &__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px; 
+    color: rgba(0, 0, 0, 0.6);      
+  }
+
+}
+select {
+  width: 256px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 40px;
+}
+.btn__apply {
+  width: 250px;
+  height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);  
+}

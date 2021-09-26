@@ -1,0 +1,74 @@
+[
+  {
+    "category": "animals",
+    "images": [
+      "owl.jpg",
+      "eagle.jpg",
+      "lion.jpg",
+      "wolf.jpg",
+      "cat.jpg",
+      "fox.jpg",
+      "horse.jpg",
+      "monkey.jpg"
+    ]
+  },
+  {
+    "category": "nature",
+    "images": [
+      "field.jpg",
+      "flowers.jpg",
+      "forest.jpg",
+      "lake.jpg",
+      "river.jpg",
+      "sky.jpg",
+      "summer.jpg",
+      "tree.jpg"
+    ]
+  },
+  {
+    "category": "animals",
+    "images": [
+      "owl.jpg",
+      "eagle.jpg",
+      "lion.jpg",
+      "wolf.jpg",
+      "cat.jpg",
+      "fox.jpg",
+      "horse.jpg",
+      "monkey.jpg",
+      "deer.jpg",
+      "elephant.jpg",
+      "flamingo.jpg",
+      "goat.jpg",
+      "heron.jpg",
+      "lamb.jpg",
+      "leopard.jpg",
+      "penguins.jpg",
+      "pigeon.jpg",
+      "rabbit.jpg"
+    ]
+  },
+  {
+    "category": "nature",
+    "images": [
+      "field.jpg",
+      "flowers.jpg",
+      "forest.jpg",
+      "lake.jpg",
+      "river.jpg",
+      "sky.jpg",
+      "summer.jpg",
+      "tree.jpg",
+      "bamboo.jpg",
+      "field-sky.jpg",
+      "flowers_1.jpg",
+      "forest-green.jpg",
+      "safari.jpg",
+      "snow.jpg",
+      "mountain_stream.jpg",
+      "mountains.jpg",
+      "sea.jpg",
+      "spring_tree.jpg"
+    ]
+  }
+]
